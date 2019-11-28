@@ -1,0 +1,36 @@
+# installer npm
+npm install -g npm@latest
+# installer le CLI angular
+npm install -g @angular/cli
+-g : installation globale, tout lesprjets en local peuvent l'utiliser
+-s : ajouter au package.json
+# css
+le css d'un composant n'impacte pas celui d'un autre composant
+# javasvript
+en javascrip tout est fonction
+sum = function(a,b) {} / function sum(a,b) {}
+# const
+on peut utiliser const pour un tableau, on change son contenu mais ça reste un tableau
+# types typscript :
+number, string, boolean, void, undefined
+# undefined
+variable déclarée mais vide : Typeof(myVar === "undefined")
+# ng serve
+compile l'appli puis l'execute sur un serveur qui lui est propre
+# interpolation
+{{ }} eviter de mettre des fonctions dedans car elles vnt être appelées tt le temps
+# *ngIf et *ngFor
+<ng-container *ngIf="">
+	<div *ngFor="">
+# property binding []
+données qui recoivent de l'info [disabled]="!isAuth"
+# event binding ()
+donnée qui envoient de l'info (click)="onAllumer()
+# constructeur
+on ne lance pas d'ctions dans le constructeur mais dans onInit()
+# hoover
+hover = mouseEnter + mouseLeave
+# formatage
+pipe | : formate le contenu, directive structurelles : *ngIf :formate le conteneur
+
+
