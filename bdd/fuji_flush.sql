@@ -4,8 +4,9 @@ use fuji_flush;
 insert into joueur(nom, prenom, password) values('lourdel', 'nicolas', 'azerty');
 insert into joueur(nom, prenom, password) values('dupond', 'patrick', 'azerty');
 insert into joueur(nom, prenom, password) values('martin', 'jacques', 'azerty');
+insert into joueur(nom, prenom, password) values('trump', 'donald', 'azerty');
 
-# création partie
+# création partie 1
 insert into partie(dateCrea, Joueur_id) values('20191028', 1);
 insert into EstJoue(Partie_id, Joueur_id) values(1,1);
 
@@ -41,7 +42,7 @@ insert into jeu(id, EstJoue_Partie_id, EstJoue_Joueur_id, carteJoue) values(2,1,
 # au jeu n°2 les mains des deux premiers joueurs ont changé : joueur 2 perds sa carte 8
 insert into Main(id, EstJoue_Partie_id, EstJoue_Joueur_id, main, Jeu_id, Jeu_EstJoue_Partie_id, Jeu_EstJoue_Joueur_id) 
 values(2,1,2,'2;2;9;10;7;', 2,1,2);
-# joueur 1 perds sa carte 6 et en prends une dans la pioche :
+# joueur 1 perds sa carte 6 et en prends une dans la pioche (carte 4) :
 insert into Main(id, EstJoue_Partie_id, EstJoue_Joueur_id, main, Jeu_id, Jeu_EstJoue_Partie_id, Jeu_EstJoue_Joueur_id) 
 values(2,1,1,'3;2;2;5;4;13;',2,1,2);
 
