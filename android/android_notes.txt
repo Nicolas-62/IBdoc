@@ -1,0 +1,8 @@
+wrap content : occup l'espace en fonction du contenu
+match parent : occupe l'espace que lui offre le parents
+
+linear layout parent  : weight = 1 weightSum = 1
+si 5 enfants : layout_weight 0.2
+
+
+bdd : SQLite

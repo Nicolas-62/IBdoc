@@ -1,0 +1,30 @@
+# navigateurs
+les framework css remettent tout à plat.
+# version 3 : basée sur float
+# version 4 : mobile first, basée sur flexbox
+# normalize et reset : remettent tout à plat
+# fichiers .map : pour déboguage dans le navigateur
+# surcharger bootstrap : dans fichier variables.scss
+# colonnes
+il y a une gouttière entre les colonnes
+une colonne toujours DANS une row
+# gouttière
+gouttière = padding de la colonne
+# Equal-width
+si on ne précise pas la taille les colonnes vont se répartir équitablement
+# comportement tableau : Equal-width multi-line
+<div class="container">
+  <div class="row">
+    <div class="col">col</div>
+    <div class="col">col</div>
+    <div class="w-100"></div>
+    <div class="col">col</div>
+    <div class="col">col</div>
+  </div>
+</div>
+# alignement
+alignement vertical : align-items : -start -center -end
+					  align-self 
+# arial-label
+lu pour mal voyant
+

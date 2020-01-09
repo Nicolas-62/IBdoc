@@ -1,0 +1,26 @@
+taille et emplacement des boutons, contraste.
+usage, prise en main du téléphone dans la main
+affordance : possibilités d'actions suggerées
+menu hamburger déprécié
+cut-off-design : couper des éléments pour suggerer leur présence dans un coin  de l'écran
+dots de pagination
+ancres
+faire des choix par défault
+préceder les besoins utilisateur
+précéder les besoins de l'utilisateur : reconaissance de caractères : OCR
+ocr : appli firebase
+
+logiciel conception interface : adobe xd
+
+1_ lister les fonctionnalitées
+2_ créer des écrans et les repartir sur ces écrans
+3_ identifier la plus grosse fonctionnalité
+4_ wire-frame : fil de fer
+5_ design
+
+
+
+Select * from game
+join hand on game.id = hand.game_id 
+join user on user.id = hand.player_id 
+where player_id = ?

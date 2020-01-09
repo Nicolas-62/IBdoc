@@ -1,0 +1,2 @@
+balise @test ne contient plus d'arguments
+doc java : oracle java code conventions

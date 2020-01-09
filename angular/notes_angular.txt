@@ -32,5 +32,7 @@ on ne lance pas d'ctions dans le constructeur mais dans onInit()
 hover = mouseEnter + mouseLeave
 # formatage
 pipe | : formate le contenu, directive structurelles : *ngIf :formate le conteneur
+# template :
+recuperer template et faire npm install
 
 

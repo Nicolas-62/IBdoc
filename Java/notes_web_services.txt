@@ -1,0 +1,26 @@
+// web services :
+
+inter-opérabilité des systemes :
+
+SOAP : HTTP, xml, WSDL
+
+REST : représentational state transfer
+idée : HTTP framwework pour faire des web services
+ex API : star war API : SWAPI
+
+!!! un post possède des comments qui possèdent des posts etc..
+il faut lui préciser où s'arrêter.
+
+RPC : remote processus call : executer du code à distance
+gRPC : transmission en binaire, utilise HTTP2
+
+HTTP2 : evol : envoie tt les données d'un coup, moins de 'ping pong', développé par google (SPDY)
+avec, mise en cache, gzip, la minification n'a plus vraiment d'intérêt
+@Expose pour jsonifier champs voulu, play : objet json : .excludeFieldsWithoutExposeAnnotation
+serialiser : transformer en binaire un objet
+outils pour utiliser methodes HTTP ex : delete : postman
+pour faire des requetes avec des entêtes spéciales via une interface web : faire une requête AJAX (on pourra préciser la méthode HTTP)
+Swagger editor : doc API
+echange de token, sécurité des API JWT, l'API est en clair dans le navigateur, le serveur va dire au navigateur que l'utilisateur doit s'authentifier, puis echange token possible entre app et serveur.
+JWT : librairie pour apiKey service provider
+Auth0 : identity provider SSO
